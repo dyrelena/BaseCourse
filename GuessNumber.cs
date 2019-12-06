@@ -31,7 +31,7 @@ namespace GuessNumber
         {
             Random num = new Random();
             int numMin = 1;
-            int numMax = 10;
+            int numMax = 146;
             int value = num.Next(numMin, numMax);
             int guess;
                         
